@@ -55,7 +55,7 @@ import icn from "../../img/icon.png";
 // export default Sidebar;
 
 const Sidebar = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   const goHome = () => {
